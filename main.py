@@ -44,9 +44,6 @@ async def on_ready():
 # イベント: メッセージが送信されたとき
 @bot.event
 async def on_message(message):
-    # 自分のボットのメッセージにはリアクションをつけない
-    if message.author == bot.user:
-        return
 
     # 保存されたチャンネルIDのリストを取得
     channel_ids = load_channel_ids()
