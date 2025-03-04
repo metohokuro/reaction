@@ -8,6 +8,7 @@ bot = commands.Bot(command_prefix='!', intents=intents)
 
 # チャンネルIDを保存するファイル
 CHANNELS_FILE = 'channels.txt'
+
 #botのトークンを入力
 TOKEN = 'とーくん'
 
